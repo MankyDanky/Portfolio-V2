@@ -1,0 +1,59 @@
+.About {
+    position: relative;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
+
+.AboutImage {
+    position: absolute;
+    bottom: 18vw;
+    right: 59.5vw;
+    width: 35vw;
+    border-radius: 0.4vw;
+    border: solid 0.2vw #252525;
+}
+
+.Spacer {
+    float: left;
+    background-color: transparent;
+    width: 30vw;
+    height: 35.2vw;
+}
+
+.Spacer:after {
+    content: '\200b';
+}
+
+.AboutInteriorContainer {
+    background-color: white;
+    margin: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 3vw;
+    border-radius: 1vw;
+}
+
+.About h3 {
+    color: #4d8bff;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.About h1 {
+    margin: 0;
+    color: #252525;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-size: 4vw;
+    
+}
+
+.About p {
+    color: #252525;
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    margin: 0;
+}

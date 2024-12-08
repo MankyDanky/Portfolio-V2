@@ -1,0 +1,47 @@
+.NavigatorBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: none;
+    z-index: 10;
+}
+
+.Navigator {
+    position: fixed;
+    top: 0;
+    left: -20vw;
+    height: 100%;
+    width: 20vw;
+    transition-duration: 0.25s;
+    background-color: #252525;
+    z-index: 10;
+}
+
+.NavigationButton {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.CloseButton {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+}
+
+.Navigator.navigating {
+    left: 0vw;
+    box-shadow:0 0 0 10000px rgba(0, 0, 0, 0.5);
+}
+
+.NavigatorBackground.navigating {
+    display: block;
+}

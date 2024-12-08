@@ -1,0 +1,14 @@
+.App {
+    background-color: #252525;
+    width: 100vw;
+    height: 100vh;
+    transition-duration: 0.25s;
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+
+hr {
+    color: white;
+    width: 60%;
+}

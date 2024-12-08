@@ -1,0 +1,16 @@
+.Projects {
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+
+.Projects h1 {
+    text-align: center;
+    color: white;
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-size: 4vw;
+    margin-bottom: 5vh;
+}
