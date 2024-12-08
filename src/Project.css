@@ -91,3 +91,46 @@ li {
 .ProjectDescription.right {
     right: 45vw;
 }
+
+@media only screen and (max-width: 768px) {
+    .Project {
+        display: block;
+        position: relative;
+        margin-bottom: 35vw;
+    }
+
+    .ProjectIcon {
+        width: 80vw;
+    }
+
+    .ProjectDescription {
+        width: 60vw;
+        left: 20vw;
+        margin: none;
+        height: 30vw;
+        top: 50vw;
+    }
+
+    .ProjectDescription p {
+        font-size: 2.5vw;
+    }
+
+    .ProjectDescription.right {
+        right: 20vw;
+    }
+
+    .ProjectDescription.left {
+        left: 20vw;
+    }
+
+    .ProjectDescription h2 {
+        font-size: 4vw;
+    }
+    li {
+        font-size: 2vw;
+    }
+    .RepoButton {
+        font-size: 1.8vw;
+        border-radius: 0.6vw;
+    }
+}

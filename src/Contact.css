@@ -39,3 +39,14 @@
     color: white;
     transform: scale(1.2);
 }
+
+@media only screen and (max-width: 768px) {
+    .Contact h1 {
+        font-size: 8vw;
+    }
+    .ContactButton {
+        font-size: 3vw;
+        margin: 4vw;
+        margin-top: 0;
+    }
+}

@@ -45,3 +45,20 @@
 .NavigatorBackground.navigating {
     display: block;
 }
+
+@media only screen and (max-width: 768px) {
+    .Navigator {
+        width: 100%;
+        left: -100vw;
+    }
+
+    .CloseButton {
+        font-size: 4vh;
+    }
+
+    .NavigationButton {
+        font-size: 4vh;
+        margin-top: 3vh;
+        margin-left: 3vh;
+    }
+}

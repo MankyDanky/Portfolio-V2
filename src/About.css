@@ -57,3 +57,24 @@
     font-size: 1.5vw;
     margin: 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .About h1 {
+        font-size: 8vw;
+        
+    }
+
+    .About h3 {
+        font-size: 3vw;
+    }
+    
+    .About p {
+        font-size: 3vw;
+    }
+    .Spacer {
+        display: none;
+    }
+    .AboutImage {
+        display: none;
+    }
+}

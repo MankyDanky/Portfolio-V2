@@ -34,3 +34,28 @@
     box-shadow: -1.5vw 3vh 0 rgb(56, 56, 56);
     border: solid 0.2vw #252525;
 }
+
+@media only screen and (max-width: 768px) {
+    .Home {
+        display: block;
+    }
+    
+    .Description {
+        margin: 0 10vw 0 10vw;
+    }
+
+    .Description h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .Description p {
+        text-align: center;
+        font-size: 3vw;
+    }
+    .HomeIcon {
+        min-width: 50vw;
+        margin-right: 25vw;
+        margin-left: 25vw;
+    }
+}
