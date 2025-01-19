@@ -5,6 +5,7 @@ import PhotoEditorIcon from './PhotoEditor.png';
 import AnimeNetworkGraphIcon from './AnimeNetworkGraph.png';
 import WaterlooStudySpotsIcon from './WaterlooStudySpots.png';
 import ZombieFighterRedux from './ZombieFighterRedux.png';
+import NightmareIsland from './NightmareIsland.png';
 import { forwardRef } from "react";
 
 const Projects = forwardRef((props, ref)=> {
@@ -43,11 +44,18 @@ const Projects = forwardRef((props, ref)=> {
             repository={"https://github.com/MankyDanky/PhotoEditor"}
             demo={"https://github.com/MankyDanky/PhotoEditor/releases/tag/1.0"}/>
             <Project
+            title={"Nightmare Island"}
+            description={"A Unity game written in C# with personally designed 3D models, and art. Survive nightfall by preparing the necessary supplies and tools."}
+            icon={NightmareIsland}
+            tags={["C#", ".NET", "Unity"]}
+            direction={"left"}
+            repository={"https://github.com/MankyDanky/Nightmare-Island"}/>
+            <Project
             title={"Anime Network Graph"}
             icon={AnimeNetworkGraphIcon}
             description={"A network graph depicting the similarity between the 200 most popular anime on MyAnimeList.net. Utilizes a trie and path finding algorithms to optimize performance."}
             tags={["Javascript", "Graph Theory", "API Usage"]}
-            direction={"left"}
+            direction={"right"}
             repository={"https://github.com/MankyDanky/Anime-Network-Graph-Plain"}
             demo={"https://anime-network-graph-plain.vercel.app/"}/>
         </div>
