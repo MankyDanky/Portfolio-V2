@@ -55,6 +55,9 @@
     background-color: #3561b4;
 }
 
+.DemoButton {
+    margin-left: 8vw;
+}
 .ProjectIcon {
     width: 40vw;
     border-radius: 0.3vw;
@@ -112,13 +115,16 @@ li {
     }
 
     .ProjectDescription p {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     .ProjectDescription.right {
         right: 20vw;
     }
-
+    .li {
+        margin-top: 0;
+        padding-top: 0;
+    }
     .ProjectDescription.left {
         left: 20vw;
     }
@@ -132,5 +138,9 @@ li {
     .RepoButton {
         font-size: 1.8vw;
         border-radius: 0.6vw;
+    }
+
+    .RepoButton + .RepoButton {
+        margin-left: 12vw;
     }
 }
