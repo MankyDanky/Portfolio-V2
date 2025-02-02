@@ -6,6 +6,7 @@ import AnimeNetworkGraphIcon from './AnimeNetworkGraph.png';
 import WaterlooStudySpotsIcon from './WaterlooStudySpots.png';
 import ZombieFighterRedux from './ZombieFighterRedux.png';
 import NightmareIsland from './NightmareIsland.png';
+import Kimei from './Kimei.png';
 import { forwardRef } from "react";
 
 const Projects = forwardRef((props, ref)=> {
@@ -17,9 +18,15 @@ const Projects = forwardRef((props, ref)=> {
             icon={WaterlooStudySpotsIcon}
             description={"A full stack app helping UWaterloo students find the right spot to study. Sign in, add reviews, and customize your profile. Uses Node.js, MongoDB, Express, and React."}
             tags={["Node.js", "MongoDB", "MERN"]}
-            direction={"left"}
+            direction={"right"}
             repository={"https://github.com/MankyDanky/Waterloo-Study-Spots"}
             demo={"https://waterloostudyspots.vercel.app/"}/>
+            <Project
+            title={"Kimei"}
+            icon={Kimei}
+            description={"A full stack app that helps users memorize information using cue cards, integrating generative AI to help source info. Uses React, TypeScript, SQL, Supabase, and Spring."}
+            repository={"https://github.com/MankyDanky/Kimei"}
+            demo={"https://kimei.vercel.app/"}/>
             <Project 
             title={"Zombie Fighter Redux"}
             icon={ZombieFighterRedux}
