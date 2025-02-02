@@ -25,7 +25,7 @@ const Projects = forwardRef((props, ref)=> {
             title={"Kimei"}
             icon={Kimei}
             direction={"left"}
-            tags={["Java, Spring Boot", "React", "TypeScript", "SQL"]}
+            tags={["Java", "Spring Boot", "React", "TypeScript", "SQL"]}
             description={"A full stack app that helps users memorize information using cue cards, integrating generative AI to help source info. Uses React, TypeScript, SQL, Supabase, and Spring."}
             repository={"https://github.com/MankyDanky/Kimei"}
             demo={"https://kimei.vercel.app/"}/>
