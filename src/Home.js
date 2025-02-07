@@ -12,7 +12,7 @@ const Home = forwardRef((props, ref) => {
                 <img src={Me} className="HomeIcon" alt="Me"></img>
                 <div className={"Description"}>
                     <h1><span style={{color: "#4d8bff"}}>Dedicated</span> and <span style={{color: "#4d8bff"}}>Motivated</span></h1>
-                    <p>Hello, I'm <span style={{color: "#4d8bff"}}>Aadi Kulshrestha</span> and I'm an incredibly hard-working student that's passionate about programming.</p>
+                    <p>Hello, I'm <span style={{color: "#4d8bff"}}>Aadi Kulshrestha</span> and I'm an incredibly hard-working Waterloo CS student that's passionate about programming.</p>
                 </div>
                 
             </div>
