@@ -7,6 +7,7 @@ import WaterlooStudySpotsIcon from './WaterlooStudySpots.png';
 import ZombieFighterRedux from './ZombieFighterRedux.png';
 import NightmareIsland from './NightmareIsland.png';
 import Kimei from './Kimei.png';
+import IceKnight from './IceKnight.png';
 import { forwardRef } from "react";
 
 const Projects = forwardRef((props, ref)=> {
@@ -18,17 +19,25 @@ const Projects = forwardRef((props, ref)=> {
             icon={WaterlooStudySpotsIcon}
             description={"A full stack app helping UWaterloo students find the right spot to study. Sign in, add reviews, and customize your profile. Uses Node.js, MongoDB, Express, and React."}
             tags={["Node.js", "MongoDB", "MERN"]}
-            direction={"right"}
+            direction={"left"}
             repository={"https://github.com/MankyDanky/Waterloo-Study-Spots"}
             demo={"https://waterloostudyspots.vercel.app/"}/>
             <Project
             title={"Kimei"}
             icon={Kimei}
-            direction={"left"}
+            direction={"right"}
             tags={["Java", "AI", "Spring Boot", "React", "TypeScript", "SQL"]}
             description={"A full stack app that helps users memorize information using cue cards, integrating generative AI to help source info. Uses React, TypeScript, SQL, Supabase, and Spring."}
             repository={"https://github.com/MankyDanky/Kimei"}
             demo={"https://kimei.vercel.app/"}/>
+            <Project
+            title={"Ice Knight"}
+            direction={"left"}
+            icon={IceKnight}
+            tags={["Unity", "C#", ".NET", "Game Jam"]}
+            description={"A 2D dungeon crawler game made in Unity for the 2025 UW Game Dev Club Game Jam. Collect ice shards for ammo, and shotgun your way through enemies."}
+            repository={"https://github.com/MankyDanky/Ice-Knight"}
+            demo={"https://mankydanky.itch.io/ice-knight"}/>
             <Project 
             title={"Zombie Fighter Redux"}
             icon={ZombieFighterRedux}
